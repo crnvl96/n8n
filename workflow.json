@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-05-13T20:59:55.459Z",
-  "updatedAt": "2025-05-14T20:36:18.000Z",
+  "updatedAt": "2025-05-14T20:54:53.000Z",
   "id": "o8oTpMnrbO7Kz20C",
   "nodes": [
     {
@@ -52,7 +52,7 @@
               "role": "system"
             },
             {
-              "content": "Tell me a curiosity about the universe. Constrains yourself to only one phrase."
+              "content": "Tell me a curiosity about the ocean. Constrains yourself to only one phrase."
             }
           ]
         },
@@ -100,7 +100,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "49f425f6-1095-4aee-b033-e2e5ffcd447a",
+  "versionId": "aecf4556-4166-476f-a594-526629445b3a",
   "triggerCount": 0,
   "shared": [
     {
