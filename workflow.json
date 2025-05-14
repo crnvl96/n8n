@@ -35,13 +35,7 @@
       ],
       "id": "e7e7b8a1-5d89-4910-bc48-b5eed5ff0c34",
       "name": "Microsoft Teams",
-      "webhookId": "516ee7ce-1a02-4a65-83ac-2380b4cc25e3",
-      "credentials": {
-        "microsoftTeamsOAuth2Api": {
-          "id": "HhOB6ODuFlOprimH",
-          "name": "Microsoft Teams account"
-        }
-      }
+      "webhookId": "516ee7ce-1a02-4a65-83ac-2380b4cc25e3"
     },
     {
       "parameters": {
@@ -71,13 +65,7 @@
         -140
       ],
       "id": "3d935777-2820-4f21-a281-7bc06d9d7ac3",
-      "name": "OpenAI",
-      "credentials": {
-        "openAiApi": {
-          "id": "gDXpeeusTt4ZPMVO",
-          "name": "n8n_vcsTestWorkflow_development_openaiAPIKey"
-        }
-      }
+      "name": "OpenAI"
     }
   ],
   "connections": {
