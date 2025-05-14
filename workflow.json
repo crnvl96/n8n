@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-05-13T20:59:55.459Z",
-  "updatedAt": "2025-05-14T14:53:40.000Z",
+  "updatedAt": "2025-05-14T20:07:22.000Z",
   "id": "o8oTpMnrbO7Kz20C",
   "nodes": [
     {
@@ -8,8 +8,8 @@
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        0,
-        0
+        -280,
+        -20
       ],
       "id": "c8dabaed-a802-4ecb-8ebd-4e82edbff7cd",
       "name": "When clicking ‘Test workflow’"
@@ -24,14 +24,14 @@
           "cachedResultName": "📌 Fixo - Squad AI Journey Interno (group)",
           "cachedResultUrl": "https://teams.microsoft.com/l/chat/19%3Acac3376a4d0348bab64e7688cd5058a8%40thread.v2/0?tenantId=898e4078-23d6-433c-94aa-51bf928dca9d"
         },
-        "message": "Test from a manually triggered workflow v3",
+        "message": "={{ $json.message.content }}",
         "options": {}
       },
       "type": "n8n-nodes-base.microsoftTeams",
       "typeVersion": 2,
       "position": [
-        220,
-        0
+        300,
+        -60
       ],
       "id": "e7e7b8a1-5d89-4910-bc48-b5eed5ff0c34",
       "name": "Microsoft Teams",
@@ -42,10 +42,57 @@
           "name": "Microsoft Teams account"
         }
       }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-3.5-turbo",
+          "mode": "list",
+          "cachedResultName": "GPT-3.5-TURBO"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "Begin with your response with the text \"Test message for n8n versioning workflow - using GPT-3.5-TURBO\". Them, put a like break, and them your response",
+              "role": "system"
+            },
+            {
+              "content": "Tell me a curiosity about the ocean. Constrains yourself to only one phrase."
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -100,
+        -140
+      ],
+      "id": "3d935777-2820-4f21-a281-7bc06d9d7ac3",
+      "name": "OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "gDXpeeusTt4ZPMVO",
+          "name": "n8n_vcsTestWorkflow_development_openaiAPIKey"
+        }
+      }
     }
   ],
   "connections": {
     "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "OpenAI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI": {
       "main": [
         [
           {
@@ -65,7 +112,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "604757c8-9b51-4642-ab71-96558c5e8e95",
+  "versionId": "b4f4c0d2-a862-405c-8ade-41c690e549f1",
   "triggerCount": 0,
   "shared": [
     {
@@ -196,7 +243,7 @@
             "projectId": "4PVE78cxY5bKNwtn",
             "user": {
               "createdAt": "2024-09-12T15:06:30.304Z",
-              "updatedAt": "2025-04-15T18:35:14.438Z",
+              "updatedAt": "2025-05-14T17:38:52.372Z",
               "id": "e28e0104-1cef-48dd-98c2-1c813ddc8e54",
               "email": "gabriel.hamu@srna.co",
               "firstName": "Gabriel",
@@ -208,9 +255,11 @@
                 "userActivated": true,
                 "userActivatedAt": 1726583612388,
                 "npsSurvey": {
-                  "responded": true,
-                  "lastShownAt": 1730306134780
-                }
+                  "waitingForResponse": true,
+                  "ignoredCount": 1,
+                  "lastShownAt": 1747244329192
+                },
+                "easyAIWorkflowOnboarded": true
               },
               "role": "global:admin",
               "disabled": false,
