@@ -1,9 +1,7 @@
 {
   "createdAt": "2025-05-13T20:59:55.459Z",
-  "updatedAt": "2025-05-14T14:12:31.000Z",
+  "updatedAt": "2025-05-14T14:53:40.000Z",
   "id": "o8oTpMnrbO7Kz20C",
-  "name": "VCS_test_workflow - DEVELOPMENT",
-  "active": false,
   "nodes": [
     {
       "parameters": {},
@@ -26,7 +24,7 @@
           "cachedResultName": "📌 Fixo - Squad AI Journey Interno (group)",
           "cachedResultUrl": "https://teams.microsoft.com/l/chat/19%3Acac3376a4d0348bab64e7688cd5058a8%40thread.v2/0?tenantId=898e4078-23d6-433c-94aa-51bf928dca9d"
         },
-        "message": "Test from a manually triggered workflow v2",
+        "message": "Test from a manually triggered workflow v3",
         "options": {}
       },
       "type": "n8n-nodes-base.microsoftTeams",
@@ -67,7 +65,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "a97fe3dc-227f-4806-8605-dffbffe450df",
+  "versionId": "604757c8-9b51-4642-ab71-96558c5e8e95",
   "triggerCount": 0,
   "shared": [
     {
@@ -318,6 +316,5 @@
         ]
       }
     }
-  ],
-  "tags": []
+  ]
 }
