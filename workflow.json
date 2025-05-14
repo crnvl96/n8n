@@ -1,8 +1,8 @@
 {
   "createdAt": "2025-05-13T20:59:55.459Z",
-  "updatedAt": "2025-05-14T13:51:50.000Z",
+  "updatedAt": "2025-05-14T14:12:31.000Z",
   "id": "o8oTpMnrbO7Kz20C",
-  "name": "VCS test workflow",
+  "name": "VCS_test_workflow - DEVELOPMENT",
   "active": false,
   "nodes": [
     {
@@ -67,7 +67,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "0c1417dd-aaea-4f17-a7bf-072a7eb95eee",
+  "versionId": "a97fe3dc-227f-4806-8605-dffbffe450df",
   "triggerCount": 0,
   "shared": [
     {
@@ -319,12 +319,5 @@
       }
     }
   ],
-  "tags": [
-    {
-      "createdAt": "2025-05-13T22:01:10.997Z",
-      "updatedAt": "2025-05-13T22:01:10.997Z",
-      "id": "HxYCJlSAcfYPwsOW",
-      "name": "vcs-test"
-    }
-  ]
+  "tags": []
 }
