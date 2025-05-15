@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-05-13T20:59:55.459Z",
-  "updatedAt": "2025-05-14T20:54:53.000Z",
+  "updatedAt": "2025-05-15T13:56:14.000Z",
   "id": "o8oTpMnrbO7Kz20C",
   "nodes": [
     {
@@ -100,20 +100,20 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "aecf4556-4166-476f-a594-526629445b3a",
+  "versionId": "a75267da-37e6-4d86-a999-26f37beb5308",
   "triggerCount": 0,
   "shared": [
     {
-      "createdAt": "2025-05-13T20:59:55.463Z",
-      "updatedAt": "2025-05-13T20:59:55.463Z",
+      "createdAt": "2025-05-15T13:53:29.936Z",
+      "updatedAt": "2025-05-15T13:53:29.936Z",
       "role": "workflow:owner",
       "workflowId": "o8oTpMnrbO7Kz20C",
-      "projectId": "4PVE78cxY5bKNwtn",
+      "projectId": "CL65O3kLen79jdWG",
       "project": {
-        "createdAt": "2024-09-23T19:28:30.139Z",
-        "updatedAt": "2025-05-07T13:57:37.000Z",
-        "id": "4PVE78cxY5bKNwtn",
-        "name": "SereIA Staging",
+        "createdAt": "2025-05-15T13:46:29.868Z",
+        "updatedAt": "2025-05-15T13:47:00.000Z",
+        "id": "CL65O3kLen79jdWG",
+        "name": "Version Control System",
         "type": "team",
         "icon": {
           "type": "icon",
@@ -121,73 +121,18 @@
         },
         "projectRelations": [
           {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
+            "createdAt": "2025-05-15T13:47:00.253Z",
+            "updatedAt": "2025-05-15T13:47:00.253Z",
             "role": "project:admin",
-            "userId": "3b309df2-34f0-4884-a3c5-17fddbc75d92",
-            "projectId": "4PVE78cxY5bKNwtn",
+            "userId": "3afdcea1-ce31-486c-9baf-6c4ebff01233",
+            "projectId": "CL65O3kLen79jdWG",
             "user": {
-              "createdAt": "2024-09-12T14:34:24.546Z",
-              "updatedAt": "2025-05-12T17:37:24.628Z",
-              "id": "3b309df2-34f0-4884-a3c5-17fddbc75d92",
-              "email": "ai.data@srna.co",
-              "firstName": "Serena",
-              "lastName": " Energia",
-              "personalizationAnswers": null,
-              "settings": {
-                "userActivated": true,
-                "firstSuccessfulWorkflowId": "3DzYMGHbNwSQACki",
-                "userActivatedAt": 1726583125955,
-                "isOnboarded": true,
-                "npsSurvey": {
-                  "waitingForResponse": true,
-                  "ignoredCount": 2,
-                  "lastShownAt": 1747071442063
-                },
-                "easyAIWorkflowOnboarded": true
-              },
-              "role": "global:owner",
-              "disabled": false,
-              "mfaEnabled": false,
-              "isPending": false,
-              "isOwner": true
-            }
-          },
-          {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:editor",
-            "userId": "e546e434-23fe-480c-8935-2be642af649c",
-            "projectId": "4PVE78cxY5bKNwtn",
-            "user": {
-              "createdAt": "2024-09-12T15:07:27.466Z",
-              "updatedAt": "2024-09-17T20:08:57.425Z",
-              "id": "e546e434-23fe-480c-8935-2be642af649c",
-              "email": "ettore.aquino@srna.co",
-              "firstName": "Ettore",
-              "lastName": "Aquino",
-              "personalizationAnswers": null,
-              "settings": null,
-              "role": "global:member",
-              "disabled": false,
-              "mfaEnabled": false,
-              "isPending": false,
-              "isOwner": false
-            }
-          },
-          {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:editor",
-            "userId": "aedb7e6f-8280-4dd3-911c-c08b2224048e",
-            "projectId": "4PVE78cxY5bKNwtn",
-            "user": {
-              "createdAt": "2024-09-12T15:08:16.954Z",
-              "updatedAt": "2025-04-09T19:19:32.468Z",
-              "id": "aedb7e6f-8280-4dd3-911c-c08b2224048e",
-              "email": "lucas.mattos@srna.co",
-              "firstName": "Lucas",
-              "lastName": "Cesar Mattos",
+              "createdAt": "2025-04-24T19:42:59.231Z",
+              "updatedAt": "2025-05-13T12:56:17.422Z",
+              "id": "3afdcea1-ce31-486c-9baf-6c4ebff01233",
+              "email": "adran.carnavale@srna.co",
+              "firstName": "Adran Carnavale",
+              "lastName": "Carnavale",
               "personalizationAnswers": null,
               "settings": {
                 "easyAIWorkflowOnboarded": true
@@ -200,11 +145,11 @@
             }
           },
           {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:editor",
+            "createdAt": "2025-05-15T13:47:00.253Z",
+            "updatedAt": "2025-05-15T13:47:00.253Z",
+            "role": "project:viewer",
             "userId": "6b587fce-4265-49ab-acc7-6463ae89e95c",
-            "projectId": "4PVE78cxY5bKNwtn",
+            "projectId": "CL65O3kLen79jdWG",
             "user": {
               "createdAt": "2024-09-12T14:36:28.221Z",
               "updatedAt": "2025-04-10T20:05:42.584Z",
@@ -224,29 +169,20 @@
             }
           },
           {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:editor",
-            "userId": "e28e0104-1cef-48dd-98c2-1c813ddc8e54",
-            "projectId": "4PVE78cxY5bKNwtn",
+            "createdAt": "2025-05-15T13:47:00.253Z",
+            "updatedAt": "2025-05-15T13:47:00.253Z",
+            "role": "project:viewer",
+            "userId": "aedb7e6f-8280-4dd3-911c-c08b2224048e",
+            "projectId": "CL65O3kLen79jdWG",
             "user": {
-              "createdAt": "2024-09-12T15:06:30.304Z",
-              "updatedAt": "2025-05-14T17:38:52.372Z",
-              "id": "e28e0104-1cef-48dd-98c2-1c813ddc8e54",
-              "email": "gabriel.hamu@srna.co",
-              "firstName": "Gabriel",
-              "lastName": "Elias Silva Hamu",
+              "createdAt": "2024-09-12T15:08:16.954Z",
+              "updatedAt": "2025-04-09T19:19:32.468Z",
+              "id": "aedb7e6f-8280-4dd3-911c-c08b2224048e",
+              "email": "lucas.mattos@srna.co",
+              "firstName": "Lucas",
+              "lastName": "Cesar Mattos",
               "personalizationAnswers": null,
               "settings": {
-                "isOnboarded": true,
-                "firstSuccessfulWorkflowId": "ay70owT2p6F6HrrU",
-                "userActivated": true,
-                "userActivatedAt": 1726583612388,
-                "npsSurvey": {
-                  "waitingForResponse": true,
-                  "ignoredCount": 1,
-                  "lastShownAt": 1747244329192
-                },
                 "easyAIWorkflowOnboarded": true
               },
               "role": "global:admin",
@@ -257,11 +193,11 @@
             }
           },
           {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:editor",
+            "createdAt": "2025-05-15T13:47:00.253Z",
+            "updatedAt": "2025-05-15T13:47:00.253Z",
+            "role": "project:viewer",
             "userId": "a4b91c39-cc6d-4c38-a546-6e645e485845",
-            "projectId": "4PVE78cxY5bKNwtn",
+            "projectId": "CL65O3kLen79jdWG",
             "user": {
               "createdAt": "2025-02-19T20:27:55.903Z",
               "updatedAt": "2025-04-22T17:26:34.213Z",
@@ -274,76 +210,6 @@
                 "easyAIWorkflowOnboarded": true
               },
               "role": "global:member",
-              "disabled": false,
-              "mfaEnabled": false,
-              "isPending": false,
-              "isOwner": false
-            }
-          },
-          {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:viewer",
-            "userId": "468f240e-72dc-4a8e-9029-97bf37c30f33",
-            "projectId": "4PVE78cxY5bKNwtn",
-            "user": {
-              "createdAt": "2025-03-13T20:41:22.922Z",
-              "updatedAt": "2025-03-13T20:42:28.283Z",
-              "id": "468f240e-72dc-4a8e-9029-97bf37c30f33",
-              "email": "lucasmrnbr@gmail.com",
-              "firstName": "Lucas",
-              "lastName": "Nishimura",
-              "personalizationAnswers": null,
-              "settings": null,
-              "role": "global:member",
-              "disabled": false,
-              "mfaEnabled": false,
-              "isPending": false,
-              "isOwner": false
-            }
-          },
-          {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:editor",
-            "userId": "fee725c7-d693-45af-8944-6226a4147c1b",
-            "projectId": "4PVE78cxY5bKNwtn",
-            "user": {
-              "createdAt": "2025-04-09T19:21:05.291Z",
-              "updatedAt": "2025-04-09T19:21:58.215Z",
-              "id": "fee725c7-d693-45af-8944-6226a4147c1b",
-              "email": "helio.costa@srna.co",
-              "firstName": "Helio",
-              "lastName": "Costa",
-              "personalizationAnswers": null,
-              "settings": {
-                "easyAIWorkflowOnboarded": true
-              },
-              "role": "global:member",
-              "disabled": false,
-              "mfaEnabled": false,
-              "isPending": false,
-              "isOwner": false
-            }
-          },
-          {
-            "createdAt": "2025-05-07T13:57:37.739Z",
-            "updatedAt": "2025-05-07T13:57:37.739Z",
-            "role": "project:editor",
-            "userId": "3afdcea1-ce31-486c-9baf-6c4ebff01233",
-            "projectId": "4PVE78cxY5bKNwtn",
-            "user": {
-              "createdAt": "2025-04-24T19:42:59.231Z",
-              "updatedAt": "2025-05-13T12:56:17.422Z",
-              "id": "3afdcea1-ce31-486c-9baf-6c4ebff01233",
-              "email": "adran.carnavale@srna.co",
-              "firstName": "Adran Carnavale",
-              "lastName": "Carnavale",
-              "personalizationAnswers": null,
-              "settings": {
-                "easyAIWorkflowOnboarded": true
-              },
-              "role": "global:admin",
               "disabled": false,
               "mfaEnabled": false,
               "isPending": false,
